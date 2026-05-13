@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "@/assets/portrait.jpg";
 import architecture from "@/assets/architecture.jpg";
 
 export const Route = createFileRoute("/")({
@@ -106,46 +105,33 @@ function Index() {
       {/* Craft / Expertise */}
       <section id="craft" className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-start">
-          <div className="space-y-12">
-            <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-              01 / Craft
-            </h2>
-            <div className="space-y-10 animate-reveal [animation-delay:200ms]">
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Personal Outreach</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  I write the first message myself. Researched, specific, and human — built to start a conversation a buyer actually wants to have.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Process at Every Stage</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Outreach, qualification, demo, proposal, close. Each stage has an owner, a definition of done, and a metric. Nothing is left to instinct.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Consultative Video & Tailored Closing</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Video calls are for listening, diagnosing and consulting — never for closing. The close happens after, through perfected proposals and closing strategies built around what the call revealed.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Analyse & Perfect</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Every conversation is reviewed. Every drop-off has a hypothesis. The playbook is rewritten the moment the data demands it.
-                </p>
-              </div>
+          <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+            01 / Craft
+          </h2>
+          <div className="space-y-10 animate-reveal [animation-delay:200ms]">
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Personal Outreach</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                I write the first message myself. Researched, specific, and human — built to start a conversation a buyer actually wants to have.
+              </p>
             </div>
-          </div>
-          <div className="relative lg:sticky lg:top-24">
-            <img
-              src={architecture}
-              alt="The sales engine — a jet engine analogy showing intake, compression, combustion and thrust as stages of an international sales process"
-              className="w-full aspect-[3/2] object-cover rounded-sm"
-              loading="lazy"
-            />
-            <div className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
-              Diagram / The Sales Engine — Hand-drawn Analogy
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Process at Every Stage</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Outreach, qualification, demo, proposal, close. Each stage has an owner, a definition of done, and a metric. Nothing is left to instinct.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Consultative Video & Tailored Closing</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Video calls are for listening, diagnosing and consulting — never for closing. The close happens after, through perfected proposals and closing strategies built around what the call revealed.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Analyse & Perfect</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Every conversation is reviewed. Every drop-off has a hypothesis. The playbook is rewritten the moment the data demands it.
+              </p>
             </div>
           </div>
         </div>
@@ -195,42 +181,41 @@ function Index() {
       </section>
 
       {/* About + Contact */}
-      <section id="about" className="max-w-7xl mx-auto px-6 py-24 lg:py-40">
-        <div className="grid lg:grid-cols-12 gap-12 items-start">
-          <div className="lg:col-span-5">
-            <img
-              src={portrait}
-              alt="Gustaw Jacewicz portrait"
-              className="w-full aspect-square object-cover rounded-sm grayscale ring-1 ring-black/5"
-              loading="lazy"
-            />
-          </div>
-          <div className="lg:col-span-7 flex flex-col justify-between">
-            <div className="space-y-8 animate-reveal">
-              <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-                03 / The Operator
-              </h2>
-              <p className="text-3xl font-medium leading-snug">
-                I reach culture first. Then together we find the real reasons, tell a good story, and finish on a valuable solution — sealed with a promise of a relationship I intend to keep and to overcome for.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-[60ch]">
-                Years of selling job ads internationally to 230+ clients across 48 countries through automated, process-disciplined outbound. Before that, eight years counting cards in casinos around the world — turning small bankrolls into 100x returns through edge, patience, and process. Same operator, same instinct: respect the math, respect the room, win quietly.
-              </p>
-            </div>
-            <div id="contact" className="pt-16">
-              <a
-                href="mailto:hello@gustawjacewicz.com"
-                className="inline-flex items-center gap-4 bg-foreground text-background px-10 py-6 text-sm font-bold uppercase tracking-widest hover:bg-accent transition-all duration-300"
-              >
-                Start a Conversation
-                <span className="text-xl font-thin">→</span>
-              </a>
-            </div>
-            <div className="mt-24 pt-8 border-t border-border flex flex-wrap gap-4 justify-between text-[10px] font-mono uppercase tracking-widest text-muted-foreground">
-              <span>Based in Bangkok / Available Globally</span>
-              <span>© 2026 Gustaw Jacewicz</span>
-            </div>
-          </div>
+      <section id="about" className="max-w-5xl mx-auto px-6 py-24 lg:py-40">
+        <figure className="mb-16 animate-reveal">
+          <img
+            src={architecture}
+            alt="The sales engine — a jet engine analogy showing intake, compression, combustion and thrust as stages of an international sales process"
+            className="w-full aspect-[3/2] object-cover rounded-sm"
+            loading="lazy"
+          />
+          <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
+            Diagram / The Sales Engine — Hand-drawn Analogy
+          </figcaption>
+        </figure>
+        <div className="space-y-8 animate-reveal [animation-delay:150ms]">
+          <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+            03 / The Operator
+          </h2>
+          <p className="text-3xl font-medium leading-snug max-w-[60ch]">
+            I reach culture first. Then together we find the real reasons, tell a good story, and finish on a valuable solution — sealed with a promise of a relationship I intend to keep and to overcome for.
+          </p>
+          <p className="text-lg text-muted-foreground leading-relaxed max-w-[60ch]">
+            Years of selling job ads internationally to 230+ clients across 48 countries through automated, process-disciplined outbound. Before that, eight years counting cards in casinos around the world — turning small bankrolls into 100x returns through edge, patience, and process. Same operator, same instinct: respect the math, respect the room, win quietly.
+          </p>
+        </div>
+        <div id="contact" className="pt-16">
+          <a
+            href="mailto:hello@gustawjacewicz.com"
+            className="inline-flex items-center gap-4 bg-foreground text-background px-10 py-6 text-sm font-bold uppercase tracking-widest hover:bg-accent transition-all duration-300"
+          >
+            Start a Conversation
+            <span className="text-xl font-thin">→</span>
+          </a>
+        </div>
+        <div className="mt-24 pt-8 border-t border-border flex flex-wrap gap-4 justify-between text-[10px] font-mono uppercase tracking-widest text-muted-foreground">
+          <span>Based in Bangkok / Available Globally</span>
+          <span>© 2026 Gustaw Jacewicz</span>
         </div>
       </section>
     </main>
