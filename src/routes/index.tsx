@@ -140,12 +140,12 @@ function Index() {
           <div className="relative lg:sticky lg:top-24">
             <img
               src={architecture}
-              alt="Architectural detail representing structural sales process"
-              className="w-full aspect-[4/5] object-cover rounded-sm grayscale"
+              alt="The sales engine — a jet engine analogy showing intake, compression, combustion and thrust as stages of an international sales process"
+              className="w-full aspect-[3/2] object-cover rounded-sm"
               loading="lazy"
             />
             <div className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
-              Asset / GTM Framework
+              Diagram / The Sales Engine — Hand-drawn Analogy
             </div>
           </div>
         </div>
