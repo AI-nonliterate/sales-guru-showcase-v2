@@ -9,13 +9,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "I build international sales engines: personal outreach, stage-by-stage process design, video consultancy and closing. Culture-first selling backed by relentless process.",
+          "I build international sales engines: personal outreach, stage-by-stage process design, consultative video calls, and perfected proposals and closing strategies. Culture-first selling backed by relentless process.",
       },
       { property: "og:title", content: "Gustaw Jacewicz — International Sales Expert" },
       {
         property: "og:description",
         content:
-          "Personal outreach, process engineering, video consultancy and closing — built to scale across borders.",
+          "Personal outreach, process engineering, consultative video calls, and perfected proposals and closing strategies — built to scale across borders.",
       },
       { property: "og:type", content: "website" },
     ],
