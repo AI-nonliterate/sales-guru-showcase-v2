@@ -9,13 +9,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "I build international sales engines: personal outreach, stage-by-stage process design, video consultancy and closing. Culture-first selling backed by relentless process.",
+          "I build international sales engines: personal outreach, stage-by-stage process design, consultative video calls, and perfected proposals and closing strategies. Culture-first selling backed by relentless process.",
       },
       { property: "og:title", content: "Gustaw Jacewicz — International Sales Expert" },
       {
         property: "og:description",
         content:
-          "Personal outreach, process engineering, video consultancy and closing — built to scale across borders.",
+          "Personal outreach, process engineering, consultative video calls, and perfected proposals and closing strategies — built to scale across borders.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -36,13 +36,13 @@ const stages = [
   },
   {
     n: "03",
-    title: "Video Consultancy",
-    body: "Live consultative calls that diagnose the real problem and architect the buying case alongside the prospect.",
+    title: "Consultative Video",
+    body: "Live calls focused on diagnosis and discovery — understand the real problem and co-architect the buying case with the prospect. No pressure to close on the call.",
   },
   {
     n: "04",
-    title: "Closing",
-    body: "Decisive late-stage execution. Mutual action plans, procurement navigation, and clean signatures across time zones.",
+    title: "Proposal & Closing Strategy",
+    body: "Tailored proposals and a closing strategy that follows the call: mutual action plans, stakeholder mapping, procurement navigation, and clean signatures across time zones.",
   },
   {
     n: "05",
@@ -124,9 +124,9 @@ function Index() {
                 </p>
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-4">Video Consultancy & Closing</h3>
+                <h3 className="text-3xl font-bold mb-4">Consultative Video & Tailored Closing</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Live calls that diagnose, architect, and close. I treat the camera as the most expensive room in the building — and I run it like one.
+                  Video calls are for listening, diagnosing and consulting — never for closing. The close happens after, through perfected proposals and closing strategies built around what the call revealed.
                 </p>
               </div>
               <div>
