@@ -124,9 +124,9 @@ function Index() {
                 </p>
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-4">Video Consultancy & Closing</h3>
+                <h3 className="text-3xl font-bold mb-4">Consultative Video & Tailored Closing</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Live calls that diagnose, architect, and close. I treat the camera as the most expensive room in the building — and I run it like one.
+                  Video calls are for listening, diagnosing and consulting — never for closing. The close happens after, through perfected proposals and closing strategies built around what the call revealed.
                 </p>
               </div>
               <div>
