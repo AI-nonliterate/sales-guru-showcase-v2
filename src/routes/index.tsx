@@ -54,21 +54,21 @@ const stages = [
 const results = [
   {
     case: "Case 01",
-    label: "SaaS Series B",
-    metric: "+240% ARR",
-    note: "18-month engine rebuild and European market entry.",
+    label: "International Job Board",
+    metric: "230+ Clients",
+    note: "Sold job ads to 230+ clients across 48 countries via automated, process-driven outbound.",
   },
   {
     case: "Case 02",
-    label: "FinTech Enterprise",
-    metric: "$14M Pipeline",
-    note: "Outbound architecture and APAC expansion playbook.",
+    label: "48 Countries Covered",
+    metric: "48 Markets",
+    note: "Culture-first prospecting localized at scale — one engine, dozens of buying cultures.",
   },
   {
     case: "Case 03",
-    label: "HealthTech Scale-up",
-    metric: "42% Lower CAC",
-    note: "Closing-rate lift through video-first consultative selling.",
+    label: "Card Counting Era",
+    metric: "+10,000% ROI",
+    note: "Eight years in casinos worldwide growing initial bankrolls 100x through disciplined edge-play.",
   },
 ];
 
