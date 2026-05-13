@@ -36,13 +36,13 @@ const stages = [
   },
   {
     n: "03",
-    title: "Video Consultancy",
-    body: "Live consultative calls that diagnose the real problem and architect the buying case alongside the prospect.",
+    title: "Consultative Video",
+    body: "Live calls focused on diagnosis and discovery — understand the real problem and co-architect the buying case with the prospect. No pressure to close on the call.",
   },
   {
     n: "04",
-    title: "Closing",
-    body: "Decisive late-stage execution. Mutual action plans, procurement navigation, and clean signatures across time zones.",
+    title: "Proposal & Closing Strategy",
+    body: "Tailored proposals and a closing strategy that follows the call: mutual action plans, stakeholder mapping, procurement navigation, and clean signatures across time zones.",
   },
   {
     n: "05",
