@@ -178,7 +178,7 @@ function Index() {
           <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-16 gap-4">
             <h2 className="text-4xl lg:text-5xl font-bold tracking-tight">Selected Impact</h2>
             <span className="font-mono text-xs opacity-50 uppercase tracking-widest">
-              Verified Performance 2020—2024
+              Verified Performance 2020—2023
             </span>
           </div>
           <div className="grid md:grid-cols-3 gap-px bg-white/10 border border-white/10">
