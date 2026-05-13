@@ -138,7 +138,7 @@ function Index() {
           <div className="grid md:grid-cols-3 gap-px bg-white/10 border border-white/10">
             {t.results.items.map((r, i) => (
               <div key={i} className="bg-foreground p-10 space-y-4">
-                <span className="font-mono text-accent text-sm">[ {r.case} {caseNumbers[i]} ]</span>
+                <span className="font-mono text-accent text-sm">[ {r.case} ]</span>
                 <h4 className="text-lg opacity-60">{r.label}</h4>
                 <p className="text-4xl font-extrabold">{r.metric}</p>
                 <p className="text-sm opacity-50">{r.note}</p>
