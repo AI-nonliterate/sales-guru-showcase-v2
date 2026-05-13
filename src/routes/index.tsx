@@ -106,46 +106,33 @@ function Index() {
       {/* Craft / Expertise */}
       <section id="craft" className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-start">
-          <div className="space-y-12">
-            <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-              01 / Craft
-            </h2>
-            <div className="space-y-10 animate-reveal [animation-delay:200ms]">
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Personal Outreach</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  I write the first message myself. Researched, specific, and human — built to start a conversation a buyer actually wants to have.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Process at Every Stage</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Outreach, qualification, demo, proposal, close. Each stage has an owner, a definition of done, and a metric. Nothing is left to instinct.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Consultative Video & Tailored Closing</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Video calls are for listening, diagnosing and consulting — never for closing. The close happens after, through perfected proposals and closing strategies built around what the call revealed.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold mb-4">Analyse & Perfect</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Every conversation is reviewed. Every drop-off has a hypothesis. The playbook is rewritten the moment the data demands it.
-                </p>
-              </div>
+          <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+            01 / Craft
+          </h2>
+          <div className="space-y-10 animate-reveal [animation-delay:200ms]">
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Personal Outreach</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                I write the first message myself. Researched, specific, and human — built to start a conversation a buyer actually wants to have.
+              </p>
             </div>
-          </div>
-          <div className="relative lg:sticky lg:top-24">
-            <img
-              src={architecture}
-              alt="The sales engine — a jet engine analogy showing intake, compression, combustion and thrust as stages of an international sales process"
-              className="w-full aspect-[3/2] object-cover rounded-sm"
-              loading="lazy"
-            />
-            <div className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
-              Diagram / The Sales Engine — Hand-drawn Analogy
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Process at Every Stage</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Outreach, qualification, demo, proposal, close. Each stage has an owner, a definition of done, and a metric. Nothing is left to instinct.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Consultative Video & Tailored Closing</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Video calls are for listening, diagnosing and consulting — never for closing. The close happens after, through perfected proposals and closing strategies built around what the call revealed.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold mb-4">Analyse & Perfect</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Every conversation is reviewed. Every drop-off has a hypothesis. The playbook is rewritten the moment the data demands it.
+              </p>
             </div>
           </div>
         </div>
