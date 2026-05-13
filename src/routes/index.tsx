@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
 });
 
 const stageNumbers = ["01", "02", "03", "04", "05"];
-const caseNumbers = ["01", "02", "03"];
+
 
 function LanguageSwitcher() {
   const { lang, setLang } = useLanguage();
