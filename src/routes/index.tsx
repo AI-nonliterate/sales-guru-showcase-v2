@@ -5,13 +5,13 @@ import architecture from "@/assets/architecture.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Marcus Hale — International Sales Expert & Sales Engine Architect" },
+      { title: "Gustaw Jacewicz — International Sales Expert & Sales Engine Architect" },
       {
         name: "description",
         content:
-          "I build international sales engines: personal outreach, stage-by-stage process design, video consultancy and closing. Fractional CRO and advisor for B2B founders.",
+          "I build international sales engines: personal outreach, stage-by-stage process design, video consultancy and closing. Culture-first selling backed by relentless process.",
       },
-      { property: "og:title", content: "Marcus Hale — International Sales Expert" },
+      { property: "og:title", content: "Gustaw Jacewicz — International Sales Expert" },
       {
         property: "og:description",
         content:
@@ -54,21 +54,21 @@ const stages = [
 const results = [
   {
     case: "Case 01",
-    label: "SaaS Series B",
-    metric: "+240% ARR",
-    note: "18-month engine rebuild and European market entry.",
+    label: "International Job Board",
+    metric: "230+ Clients",
+    note: "Sold job ads to 230+ clients across 48 countries via automated, process-driven outbound.",
   },
   {
     case: "Case 02",
-    label: "FinTech Enterprise",
-    metric: "$14M Pipeline",
-    note: "Outbound architecture and APAC expansion playbook.",
+    label: "48 Countries Covered",
+    metric: "48 Markets",
+    note: "Culture-first prospecting localized at scale — one engine, dozens of buying cultures.",
   },
   {
     case: "Case 03",
-    label: "HealthTech Scale-up",
-    metric: "42% Lower CAC",
-    note: "Closing-rate lift through video-first consultative selling.",
+    label: "Card Counting Era",
+    metric: "+10,000% ROI",
+    note: "Eight years in casinos worldwide growing initial bankrolls 100x through disciplined edge-play.",
   },
 ];
 
@@ -78,7 +78,7 @@ function Index() {
       {/* Nav */}
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-bold tracking-tight text-lg uppercase">Marcus Hale</span>
+          <span className="font-bold tracking-tight text-lg uppercase">Gustaw Jacewicz</span>
           <div className="hidden md:flex gap-8 text-xs font-medium uppercase tracking-widest">
             <a href="#process" className="hover:text-accent transition-colors">Process</a>
             <a href="#results" className="hover:text-accent transition-colors">Results</a>
@@ -200,7 +200,7 @@ function Index() {
           <div className="lg:col-span-5">
             <img
               src={portrait}
-              alt="Marcus Hale portrait"
+              alt="Gustaw Jacewicz portrait"
               className="w-full aspect-square object-cover rounded-sm grayscale ring-1 ring-black/5"
               loading="lazy"
             />
@@ -211,15 +211,15 @@ function Index() {
                 03 / The Operator
               </h2>
               <p className="text-3xl font-medium leading-snug">
-                I've spent fifteen years selling across EMEA, APAC and the Americas — first as an individual contributor, then leading teams, now building the systems that make both repeatable.
+                I reach culture first. Then together we find the real reasons, tell a good story, and finish on a valuable solution — sealed with a promise of a relationship I intend to keep and to overcome for.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-[60ch]">
-                I work with founders and revenue leaders as a fractional CRO, advisor, or hands-on engine builder. The work is part craft, part system: deeply personal at the edges, ruthlessly engineered in the middle.
+                Years of selling job ads internationally to 230+ clients across 48 countries through automated, process-disciplined outbound. Before that, eight years counting cards in casinos around the world — turning small bankrolls into 100x returns through edge, patience, and process. Same operator, same instinct: respect the math, respect the room, win quietly.
               </p>
             </div>
             <div id="contact" className="pt-16">
               <a
-                href="mailto:hello@marcushale.com"
+                href="mailto:hello@gustawjacewicz.com"
                 className="inline-flex items-center gap-4 bg-foreground text-background px-10 py-6 text-sm font-bold uppercase tracking-widest hover:bg-accent transition-all duration-300"
               >
                 Start a Conversation
@@ -227,8 +227,8 @@ function Index() {
               </a>
             </div>
             <div className="mt-24 pt-8 border-t border-border flex flex-wrap gap-4 justify-between text-[10px] font-mono uppercase tracking-widest text-muted-foreground">
-              <span>Based in London / Available Globally</span>
-              <span>© 2026 Marcus Hale</span>
+              <span>Based in Bangkok / Available Globally</span>
+              <span>© 2026 Gustaw Jacewicz</span>
             </div>
           </div>
         </div>
