@@ -200,7 +200,7 @@ function Index() {
           <div className="lg:col-span-5">
             <img
               src={portrait}
-              alt="Marcus Hale portrait"
+              alt="Gustaw Jacewicz portrait"
               className="w-full aspect-square object-cover rounded-sm grayscale ring-1 ring-black/5"
               loading="lazy"
             />
@@ -211,15 +211,15 @@ function Index() {
                 03 / The Operator
               </h2>
               <p className="text-3xl font-medium leading-snug">
-                I've spent fifteen years selling across EMEA, APAC and the Americas — first as an individual contributor, then leading teams, now building the systems that make both repeatable.
+                I reach culture first. Then together we find the real reasons, tell a good story, and finish on a valuable solution — sealed with a promise of a relationship I intend to keep and to overcome for.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-[60ch]">
-                I work with founders and revenue leaders as a fractional CRO, advisor, or hands-on engine builder. The work is part craft, part system: deeply personal at the edges, ruthlessly engineered in the middle.
+                Years of selling job ads internationally to 230+ clients across 48 countries through automated, process-disciplined outbound. Before that, eight years counting cards in casinos around the world — turning small bankrolls into 100x returns through edge, patience, and process. Same operator, same instinct: respect the math, respect the room, win quietly.
               </p>
             </div>
             <div id="contact" className="pt-16">
               <a
-                href="mailto:hello@marcushale.com"
+                href="mailto:hello@gustawjacewicz.com"
                 className="inline-flex items-center gap-4 bg-foreground text-background px-10 py-6 text-sm font-bold uppercase tracking-widest hover:bg-accent transition-all duration-300"
               >
                 Start a Conversation
@@ -227,8 +227,8 @@ function Index() {
               </a>
             </div>
             <div className="mt-24 pt-8 border-t border-border flex flex-wrap gap-4 justify-between text-[10px] font-mono uppercase tracking-widest text-muted-foreground">
-              <span>Based in London / Available Globally</span>
-              <span>© 2026 Marcus Hale</span>
+              <span>Based in Bangkok / Available Globally</span>
+              <span>© 2026 Gustaw Jacewicz</span>
             </div>
           </div>
         </div>
