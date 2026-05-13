@@ -78,7 +78,7 @@ function Index() {
       {/* Nav */}
       <nav className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-bold tracking-tight text-lg uppercase">Marcus Hale</span>
+          <span className="font-bold tracking-tight text-lg uppercase">Gustaw Jacewicz</span>
           <div className="hidden md:flex gap-8 text-xs font-medium uppercase tracking-widest">
             <a href="#process" className="hover:text-accent transition-colors">Process</a>
             <a href="#results" className="hover:text-accent transition-colors">Results</a>
