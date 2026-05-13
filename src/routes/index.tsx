@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "@/assets/portrait.jpg";
 import architecture from "@/assets/architecture.jpg";
 
 export const Route = createFileRoute("/")({
