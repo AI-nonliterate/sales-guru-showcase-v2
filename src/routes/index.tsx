@@ -5,13 +5,13 @@ import architecture from "@/assets/architecture.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Marcus Hale — International Sales Expert & Sales Engine Architect" },
+      { title: "Gustaw Jacewicz — International Sales Expert & Sales Engine Architect" },
       {
         name: "description",
         content:
-          "I build international sales engines: personal outreach, stage-by-stage process design, video consultancy and closing. Fractional CRO and advisor for B2B founders.",
+          "I build international sales engines: personal outreach, stage-by-stage process design, video consultancy and closing. Culture-first selling backed by relentless process.",
       },
-      { property: "og:title", content: "Marcus Hale — International Sales Expert" },
+      { property: "og:title", content: "Gustaw Jacewicz — International Sales Expert" },
       {
         property: "og:description",
         content:
