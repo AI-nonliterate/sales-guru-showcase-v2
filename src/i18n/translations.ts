@@ -382,6 +382,147 @@ const th: Dictionary = {
   footer: { location: "ฐานที่กรุงเทพฯ / พร้อมให้บริการทั่วโลก", copyright: "© 2026 Gustaw Jacewicz" },
 };
 
+const hi: Dictionary = {
+  nav: { process: "प्रक्रिया", results: "परिणाम", about: "परिचय", contact: "संपर्क" },
+  hero: {
+    tagline: "[ राजस्व वास्तुकला ]",
+    headline: "अंतर्राष्ट्रीय बिक्री विशेषज्ञ। मैं सेल्स इंजन बनाता हूँ।",
+    sub: "व्यक्तिगत आउटरीच, प्रक्रिया इंजीनियरिंग और परामर्शी वीडियो कॉल — सीमाओं के पार काम करने वाले एक दोहराए जा सकने वाले इंजन में संयोजित।",
+  },
+  craft: {
+    section: "01 / शिल्प",
+    items: [
+      { title: "व्यक्तिगत आउटरीच", body: "पहला संदेश मैं स्वयं लिखता हूँ। शोध-आधारित, विशिष्ट और मानवीय — ऐसा संवाद शुरू करने के लिए जो खरीदार वास्तव में करना चाहे।" },
+      { title: "हर चरण में प्रक्रिया", body: "आउटरीच, योग्यता, डेमो, प्रस्ताव, क्लोज़। हर चरण का एक मालिक, एक परिभाषा और एक मीट्रिक है। कुछ भी सहज प्रवृत्ति पर नहीं छोड़ा जाता।" },
+      { title: "परामर्शी वीडियो और अनुकूलित क्लोज़िंग", body: "वीडियो कॉल सुनने, निदान और परामर्श के लिए हैं — कभी क्लोज़िंग के लिए नहीं। क्लोज़िंग बाद में होती है, कॉल में मिली अंतर्दृष्टि पर बनी परिष्कृत प्रस्तावों और रणनीतियों के माध्यम से।" },
+      { title: "विश्लेषण और परिशोधन", body: "हर बातचीत की समीक्षा होती है। हर ड्रॉप-ऑफ की एक परिकल्पना होती है। जैसे ही डेटा माँगता है, प्लेबुक फिर से लिखा जाता है।" },
+    ],
+  },
+  engine: {
+    heading: "इंजन, चरण दर चरण",
+    label: "02 / प्रक्रिया",
+    stages: [
+      { title: "आउटरीच", body: "व्यक्तिगत, शोधित, बहु-चैनल आउटरीच। वास्तविक बातचीत, अनुक्रम नहीं। हर संदेश अगला उत्तर अर्जित करता है।" },
+      { title: "योग्यता", body: "तेज़ डिस्कवरी फ्रेमवर्क सिग्नल को शोर से अलग करते हैं। सही सौदे आगे बढ़ते हैं, गलत जल्दी बंद होते हैं।" },
+      { title: "परामर्शी वीडियो", body: "लाइव कॉल निदान और डिस्कवरी पर केंद्रित — असली समस्या को समझें और प्रॉस्पेक्ट के साथ मिलकर खरीद-केस तैयार करें। कॉल में क्लोज़ करने का कोई दबाव नहीं।" },
+      { title: "प्रस्ताव और क्लोज़िंग रणनीति", body: "अनुकूलित प्रस्ताव और कॉल के बाद की क्लोज़िंग रणनीति: म्यूचुअल एक्शन प्लान, स्टेकहोल्डर मैपिंग, प्रोक्योरमेंट नेविगेशन और समय-क्षेत्रों में स्वच्छ हस्ताक्षर।" },
+      { title: "विश्लेषण और परिशोधन", body: "हर चरण मापा जाता है और साप्ताहिक समीक्षा होती है। कन्वर्ज़न डेटा प्लेबुक के अगले संस्करण को आगे बढ़ाता है।" },
+    ],
+  },
+  results: {
+    heading: "चयनित प्रभाव",
+    label: "सत्यापित प्रदर्शन 2020—2023",
+    items: [
+      { case: "केस 01", label: "अंतर्राष्ट्रीय जॉब बोर्ड", metric: "230+ ग्राहक", note: "स्वचालित, प्रक्रिया-आधारित आउटबाउंड के माध्यम से 48 देशों के 230+ ग्राहकों को जॉब विज्ञापन बेचे।" },
+      { case: "केस 02", label: "48 देश कवर किए", metric: "48 बाज़ार", note: "संस्कृति-पहले प्रॉस्पेक्टिंग, बड़े पैमाने पर स्थानीयकृत — एक इंजन, दर्जनों खरीदारी संस्कृतियाँ।" },
+      { case: "केस 03", label: "कार्ड काउंटिंग युग", metric: "+10,000% ROI", note: "दुनिया भर के कैसिनो में आठ साल — अनुशासित एज-प्ले के माध्यम से शुरुआती बैंकरोल को 100 गुना बढ़ाया।" },
+    ],
+  },
+  about: {
+    section: "03 / ऑपरेटर",
+    diagramCaption: "आरेख / सेल्स इंजन — हस्तनिर्मित उपमा",
+    diagramAlt: "सेल्स इंजन — एक जेट इंजन उपमा जो अंतर्राष्ट्रीय बिक्री प्रक्रिया के चरणों के रूप में इनटेक, कम्प्रेशन, कम्बस्शन और थ्रस्ट दिखाती है",
+    lead: "मैं पहले संस्कृति तक पहुँचता हूँ। फिर हम मिलकर असली कारण खोजते हैं, एक अच्छी कहानी कहते हैं, और एक मूल्यवान समाधान पर समाप्त करते हैं — एक ऐसे रिश्ते के वादे के साथ जिसे मैं निभाने और पार पाने का इरादा रखता हूँ।",
+    bio: "स्वचालित, प्रक्रिया-अनुशासित आउटबाउंड के माध्यम से 48 देशों में 230+ ग्राहकों को अंतर्राष्ट्रीय स्तर पर जॉब विज्ञापन बेचने के वर्ष। उससे पहले, दुनिया भर के कैसिनो में आठ साल कार्ड गिनना — एज, धैर्य और प्रक्रिया के माध्यम से छोटे बैंकरोल को 100x रिटर्न में बदला। वही ऑपरेटर, वही प्रवृत्ति: गणित का सम्मान करो, कमरे का सम्मान करो, चुपचाप जीतो।",
+  },
+  cta: { button: "बातचीत शुरू करें" },
+  footer: { location: "बैंकॉक में आधारित / विश्व स्तर पर उपलब्ध", copyright: "© 2026 Gustaw Jacewicz" },
+};
+
+const is: Dictionary = {
+  nav: { process: "Ferli", results: "Árangur", about: "Um mig", contact: "Hafa samband" },
+  hero: {
+    tagline: "[ Tekjuarkitektúr ]",
+    headline: "Sérfræðingur í alþjóðlegri sölu. Ég smíða söluvélar.",
+    sub: "Persónuleg útrás, ferlisverkfræði og ráðgefandi myndsímtöl — sett saman í endurtakanlega vél sem fer yfir landamæri.",
+  },
+  craft: {
+    section: "01 / Handverk",
+    items: [
+      { title: "Persónuleg útrás", body: "Ég skrifa fyrstu skilaboðin sjálfur. Rannsökuð, sérsniðin og mannleg — hönnuð til að hefja samtal sem kaupandinn vill raunverulega eiga." },
+      { title: "Ferli á hverju stigi", body: "Útrás, hæfismat, kynning, tilboð, lokun. Hvert stig á sér eiganda, skilgreiningu á lokið og mælikvarða. Ekkert er skilið eftir innsæinu." },
+      { title: "Ráðgefandi myndfundir og sérsniðin lokun", body: "Myndsímtöl eru til að hlusta, greina og ráðleggja — aldrei til að loka. Lokunin gerist eftir á, með fáguðum tilboðum og aðferðum byggðum á því sem símtalið leiddi í ljós." },
+      { title: "Greina og fullkomna", body: "Hvert samtal er rýnt. Hvert brottfall á sér tilgátu. Handbókin er endurskrifuð um leið og gögnin krefjast þess." },
+    ],
+  },
+  engine: {
+    heading: "Vélin, stig fyrir stig",
+    label: "02 / Ferli",
+    stages: [
+      { title: "Útrás", body: "Persónuleg, rannsökuð, fjölrása útrás. Raunveruleg samtöl, ekki raðir. Hver skilaboð vinna sér inn næsta svar." },
+      { title: "Hæfismat", body: "Skörp uppgötvunarrammi aðskilja merki frá hávaða. Réttu samningarnir halda áfram, þeir röngu lokast hratt." },
+      { title: "Ráðgefandi myndfundur", body: "Lifandi símtöl með áherslu á greiningu og uppgötvun — skilja raunverulega vandamálið og hanna kaupatilfellið með viðskiptavininum. Engin pressa um lokun á fundinum." },
+      { title: "Tilboð og lokunaráætlun", body: "Sérsniðin tilboð og lokunaráætlun sem fylgir símtalinu: sameiginlegar aðgerðaáætlanir, hagsmunakortlagning, innkaupaleiðsögn og hreinar undirskriftir yfir tímabelti." },
+      { title: "Greina og fullkomna", body: "Hvert stig mælt og rýnt vikulega. Umbreytingargögn knýja næstu útgáfu handbókarinnar." },
+    ],
+  },
+  results: {
+    heading: "Valinn árangur",
+    label: "Staðfest frammistaða 2020—2023",
+    items: [
+      { case: "Tilfelli 01", label: "Alþjóðlegt atvinnutorg", metric: "230+ viðskiptavinir", note: "Seldi atvinnuauglýsingar til 230+ viðskiptavina í 48 löndum með sjálfvirkri, ferlisdrifinni útrás." },
+      { case: "Tilfelli 02", label: "48 lönd náð", metric: "48 markaðir", note: "Menning-fyrst leit, staðfærð í mælikvarða — ein vél, tugir kaupmenninga." },
+      { case: "Tilfelli 03", label: "Spilatalningartímabilið", metric: "+10.000% arðsemi", note: "Átta ár í spilavítum um allan heim — stækkaði upphafsfé 100-falt með öguðum forskotsleik." },
+    ],
+  },
+  about: {
+    section: "03 / Stjórnandinn",
+    diagramCaption: "Skýringarmynd / Söluvélin — handteiknuð líking",
+    diagramAlt: "Söluvélin — þotuhreyfilslíking sem sýnir inntak, þjöppun, bruna og spyrnu sem stig alþjóðlegs söluferlis",
+    lead: "Ég næ fyrst í menninguna. Síðan finnum við saman raunverulegu ástæðurnar, segjum góða sögu og endum á verðmætri lausn — innsiglað með loforði um samband sem ég ætla að halda og berjast fyrir.",
+    bio: "Mörg ár af alþjóðlegri sölu á atvinnuauglýsingum til 230+ viðskiptavina í 48 löndum með sjálfvirkri, ferlisaguðri útrás. Áður fyrr, átta ár að telja spil í spilavítum um allan heim — breytti litlu fé í 100-falda ávöxtun með forskoti, þolinmæði og ferli. Sami stjórnandi, sama eðlisávísun: virða stærðfræðina, virða herbergið, vinna í kyrrþey.",
+  },
+  cta: { button: "Hefja samtal" },
+  footer: { location: "Staðsettur í Bangkok / Aðgengilegur á heimsvísu", copyright: "© 2026 Gustaw Jacewicz" },
+};
+
+const af: Dictionary = {
+  nav: { process: "Proses", results: "Resultate", about: "Oor my", contact: "Kontak" },
+  hero: {
+    tagline: "[ Inkomste-argitektuur ]",
+    headline: "Internasionale verkoopskenner. Ek bou verkoopsenjins.",
+    sub: "Persoonlike uitreik, prosesingenieurswese en konsulterende video-oproepe — saamgevoeg in 'n herhaalbare enjin wat grense oorsteek.",
+  },
+  craft: {
+    section: "01 / Vakmanskap",
+    items: [
+      { title: "Persoonlike uitreik", body: "Ek skryf die eerste boodskap self. Nagevors, spesifiek en menslik — gebou om 'n gesprek te begin wat 'n koper werklik wil voer." },
+      { title: "Proses by elke stadium", body: "Uitreik, kwalifisering, demo, voorstel, sluiting. Elke stadium het 'n eienaar, 'n definisie van klaar, en 'n maatstaf. Niks word aan instink oorgelaat nie." },
+      { title: "Konsulterende video & pasgemaakte sluiting", body: "Video-oproepe is om te luister, te diagnoseer en te adviseer — nooit om te sluit nie. Die sluiting gebeur daarna, deur verfynde voorstelle en strategieë gebou rondom wat die oproep onthul het." },
+      { title: "Ontleed & vervolmaak", body: "Elke gesprek word hersien. Elke afval het 'n hipotese. Die draaiboek word herskryf die oomblik die data dit eis." },
+    ],
+  },
+  engine: {
+    heading: "Die enjin, stadium vir stadium",
+    label: "02 / Proses",
+    stages: [
+      { title: "Uitreik", body: "Persoonlike, nagevorsde, multi-kanaal uitreik. Werklike gesprekke, nie reekse nie. Elke boodskap verdien die volgende antwoord." },
+      { title: "Kwalifisering", body: "Skerp ontdekkingsraamwerke skei sein van geraas. Die regte transaksies vorder, die verkeerdes sluit vinnig." },
+      { title: "Konsulterende video", body: "Lewendige oproepe gefokus op diagnose en ontdekking — verstaan die werklike probleem en bou die koopgeval saam met die voornemende kliënt. Geen druk om op die oproep te sluit nie." },
+      { title: "Voorstel & sluitingstrategie", body: "Pasgemaakte voorstelle en 'n sluitingstrategie wat die oproep volg: wedersydse aksieplanne, belanghebbende-kartering, verkrygingsnavigasie, en skoon handtekeninge oor tydsones." },
+      { title: "Ontleed & vervolmaak", body: "Elke stadium gemeet en weekliks hersien. Omskakelingsdata dryf die volgende iterasie van die draaiboek." },
+    ],
+  },
+  results: {
+    heading: "Geselekteerde impak",
+    label: "Geverifieerde prestasie 2020—2023",
+    items: [
+      { case: "Geval 01", label: "Internasionale werkbord", metric: "230+ kliënte", note: "Werkadvertensies aan 230+ kliënte in 48 lande verkoop deur outomatiese, prosesgedrewe uitreik." },
+      { case: "Geval 02", label: "48 lande gedek", metric: "48 markte", note: "Kultuur-eerste prospektering gelokaliseer op skaal — een enjin, dosyne koopkulture." },
+      { case: "Geval 03", label: "Kaarttel-era", metric: "+10 000% ROI", note: "Agt jaar in casino's wêreldwyd — aanvanklike kapitaal 100x gegroei deur gedissiplineerde voordeelspel." },
+    ],
+  },
+  about: {
+    section: "03 / Die operateur",
+    diagramCaption: "Diagram / Die verkoopsenjin — handgetekende analogie",
+    diagramAlt: "Die verkoopsenjin — 'n straalenjin-analogie wat inname, kompressie, verbranding en stukrag toon as stadiums van 'n internasionale verkoopsproses",
+    lead: "Ek bereik eers die kultuur. Dan vind ons saam die werklike redes, vertel 'n goeie storie en sluit af met 'n waardevolle oplossing — verseël met 'n belofte van 'n verhouding wat ek wil hou en waarvoor ek wil veg.",
+    bio: "Jare van internasionale verkoop van werkadvertensies aan 230+ kliënte in 48 lande deur outomatiese, prosesgedissiplineerde uitreik. Voor dit, agt jaar kaarte tel in casino's regoor die wêreld — klein bankrolle in 100x opbrengs verander deur voordeel, geduld en proses. Dieselfde operateur, dieselfde instink: respekteer die wiskunde, respekteer die kamer, wen stil-stil.",
+  },
+  cta: { button: "Begin 'n gesprek" },
+  footer: { location: "Gebaseer in Bangkok / Wêreldwyd beskikbaar", copyright: "© 2026 Gustaw Jacewicz" },
+};
+
 export const dictionaries: Record<LanguageCode, Dictionary> = {
-  en, de, ru, cs, zh, pt, th,
+  en, de, ru, cs, zh, pt, th, hi, is, af,
 };
