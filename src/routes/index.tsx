@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import architecture from "@/assets/architecture.jpg";
+import portrait from "@/assets/portrait.jpg";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { LANGUAGES, type LanguageCode } from "@/i18n/translations";
 
@@ -91,9 +92,22 @@ function Index() {
       {/* Craft / Expertise */}
       <section id="craft" className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-start">
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-            {t.craft.section}
-          </h2>
+          <div className="space-y-8 animate-reveal">
+            <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+              {t.craft.section}
+            </h2>
+            <figure>
+              <img
+                src={architecture}
+                alt={t.about.diagramAlt}
+                className="w-full aspect-[3/2] object-cover rounded-sm"
+                loading="lazy"
+              />
+              <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
+                {t.about.diagramCaption}
+              </figcaption>
+            </figure>
+          </div>
           <div className="space-y-10 animate-reveal [animation-delay:200ms]">
             {t.craft.items.map((item) => (
               <div key={item.title}>
@@ -152,13 +166,13 @@ function Index() {
       <section id="about" className="max-w-5xl mx-auto px-6 py-24 lg:py-40">
         <figure className="mb-16 animate-reveal">
           <img
-            src={architecture}
-            alt={t.about.diagramAlt}
+            src={portrait}
+            alt="Portrait of Gustaw Jacewicz"
             className="w-full aspect-[3/2] object-cover rounded-sm"
             loading="lazy"
           />
           <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
-            {t.about.diagramCaption}
+            Portrait / On the road — Tenerife
           </figcaption>
         </figure>
         <div className="space-y-8 animate-reveal [animation-delay:150ms]">
