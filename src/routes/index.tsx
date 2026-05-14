@@ -96,17 +96,6 @@ function Index() {
             <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
               {t.craft.section}
             </h2>
-            <figure>
-              <img
-                src={architecture}
-                alt={t.about.diagramAlt}
-                className="w-full aspect-[3/2] object-cover rounded-sm"
-                loading="lazy"
-              />
-              <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
-                {t.about.diagramCaption}
-              </figcaption>
-            </figure>
           </div>
           <div className="space-y-10 animate-reveal [animation-delay:200ms]">
             {t.craft.items.map((item) => (
@@ -128,6 +117,17 @@ function Index() {
               {t.engine.label}
             </span>
           </div>
+          <figure className="mb-16 animate-reveal">
+            <img
+              src={architecture}
+              alt={t.about.diagramAlt}
+              className="w-full aspect-[3/2] object-cover rounded-sm"
+              loading="lazy"
+            />
+            <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
+              {t.about.diagramCaption}
+            </figcaption>
+          </figure>
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-px bg-border border border-border">
             {t.engine.stages.map((s, i) => (
               <div key={i} className="bg-background p-8 space-y-4 hover:bg-secondary transition-colors">
