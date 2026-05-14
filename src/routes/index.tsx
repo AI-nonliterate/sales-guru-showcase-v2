@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import architecture from "@/assets/architecture.jpg";
+import portrait from "@/assets/portrait.jpg";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { LANGUAGES, type LanguageCode } from "@/i18n/translations";
 
