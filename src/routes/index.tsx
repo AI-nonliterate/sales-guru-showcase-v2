@@ -166,13 +166,13 @@ function Index() {
       <section id="about" className="max-w-5xl mx-auto px-6 py-24 lg:py-40">
         <figure className="mb-16 animate-reveal">
           <img
-            src={architecture}
-            alt={t.about.diagramAlt}
+            src={portrait}
+            alt="Portrait of Gustaw Jacewicz"
             className="w-full aspect-[3/2] object-cover rounded-sm"
             loading="lazy"
           />
           <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
-            {t.about.diagramCaption}
+            Portrait / On the road — Tenerife
           </figcaption>
         </figure>
         <div className="space-y-8 animate-reveal [animation-delay:150ms]">
