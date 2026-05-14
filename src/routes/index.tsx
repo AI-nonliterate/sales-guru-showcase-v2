@@ -92,9 +92,22 @@ function Index() {
       {/* Craft / Expertise */}
       <section id="craft" className="border-t border-border">
         <div className="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-start">
-          <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-            {t.craft.section}
-          </h2>
+          <div className="space-y-8 animate-reveal">
+            <h2 className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+              {t.craft.section}
+            </h2>
+            <figure>
+              <img
+                src={architecture}
+                alt={t.about.diagramAlt}
+                className="w-full aspect-[3/2] object-cover rounded-sm"
+                loading="lazy"
+              />
+              <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-[0.15em] text-muted-foreground">
+                {t.about.diagramCaption}
+              </figcaption>
+            </figure>
+          </div>
           <div className="space-y-10 animate-reveal [animation-delay:200ms]">
             {t.craft.items.map((item) => (
               <div key={item.title}>
