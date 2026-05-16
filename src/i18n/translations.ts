@@ -8,7 +8,7 @@ export const LANGUAGES = [
   { code: "th", label: "ไทย" },
   { code: "is", label: "Íslenska" },
   { code: "hi", label: "हिन्दी" },
-  { code: "af", label: "Afrikaans" },
+  { code: "sv", label: "Svenska" },
 ] as const;
 
 export type LanguageCode = (typeof LANGUAGES)[number]["code"];
@@ -476,53 +476,53 @@ const is: Dictionary = {
   footer: { location: "Staðsettur í Bangkok / Aðgengilegur á heimsvísu", copyright: "© 2026 Gustaw Jacewicz" },
 };
 
-const af: Dictionary = {
-  nav: { process: "Proses", results: "Resultate", about: "Oor my", contact: "Kontak" },
+const sv: Dictionary = {
+  nav: { process: "Process", results: "Resultat", about: "Om mig", contact: "Kontakt" },
   hero: {
-    tagline: "[ Inkomste-argitektuur ]",
-    headline: "Internasionale verkoopskenner. Ek bou verkoopsenjins.",
-    sub: "Persoonlike uitreik, prosesingenieurswese en konsulterende video-oproepe — saamgevoeg in 'n herhaalbare enjin wat grense oorsteek.",
+    tagline: "[ Intäktsarkitektur ]",
+    headline: "Internationell säljexpert. Jag bygger säljmotorer.",
+    sub: "Personlig uppsökning, processingenjörskonst och konsultativa videosamtal — sammansatt till en repeterbar motor som korsar gränser.",
   },
   craft: {
-    section: "01 / Vakmanskap",
+    section: "01 / Hantverk",
     items: [
-      { title: "Persoonlike uitreik", body: "Ek skryf die eerste boodskap self. Nagevors, spesifiek en menslik — gebou om 'n gesprek te begin wat 'n koper werklik wil voer." },
-      { title: "Proses by elke stadium", body: "Uitreik, kwalifisering, demo, voorstel, sluiting. Elke stadium het 'n eienaar, 'n definisie van klaar, en 'n maatstaf. Niks word aan instink oorgelaat nie." },
-      { title: "Konsulterende video & pasgemaakte sluiting", body: "Video-oproepe is om te luister, te diagnoseer en te adviseer — nooit om te sluit nie. Die sluiting gebeur daarna, deur verfynde voorstelle en strategieë gebou rondom wat die oproep onthul het." },
-      { title: "Ontleed & vervolmaak", body: "Elke gesprek word hersien. Elke afval het 'n hipotese. Die draaiboek word herskryf die oomblik die data dit eis." },
+      { title: "Personlig uppsökning", body: "Jag skriver det första meddelandet själv. Researchat, specifikt och mänskligt — byggt för att starta ett samtal en köpare faktiskt vill ha." },
+      { title: "Process i varje steg", body: "Uppsökning, kvalificering, demo, offert, avslut. Varje steg har en ägare, en definition av klart och ett mått. Inget lämnas åt instinkten." },
+      { title: "Konsultativ video & skräddarsytt avslut", body: "Videosamtal är till för att lyssna, diagnostisera och rådge — aldrig för att avsluta. Avslutet sker efteråt, genom finslipade förslag och avslutsstrategier byggda kring vad samtalet avslöjade." },
+      { title: "Analysera & finslipa", body: "Varje samtal granskas. Varje förlust har en hypotes. Manuset skrivs om i samma stund data kräver det." },
     ],
   },
   engine: {
-    heading: "Die enjin, stadium vir stadium",
-    label: "02 / Proses",
+    heading: "Motorn, steg för steg",
+    label: "02 / Process",
     stages: [
-      { title: "Uitreik", body: "Persoonlike, nagevorsde, multi-kanaal uitreik. Werklike gesprekke, nie reekse nie. Elke boodskap verdien die volgende antwoord." },
-      { title: "Kwalifisering", body: "Skerp ontdekkingsraamwerke skei sein van geraas. Die regte transaksies vorder, die verkeerdes sluit vinnig." },
-      { title: "Konsulterende video", body: "Lewendige oproepe gefokus op diagnose en ontdekking — verstaan die werklike probleem en bou die koopgeval saam met die voornemende kliënt. Geen druk om op die oproep te sluit nie." },
-      { title: "Voorstel & sluitingstrategie", body: "Pasgemaakte voorstelle en 'n sluitingstrategie wat die oproep volg: wedersydse aksieplanne, belanghebbende-kartering, verkrygingsnavigasie, en skoon handtekeninge oor tydsones." },
-      { title: "Ontleed & vervolmaak", body: "Elke stadium gemeet en weekliks hersien. Omskakelingsdata dryf die volgende iterasie van die draaiboek." },
+      { title: "Uppsökning", body: "Personlig, researchad, flerkanalig uppsökning. Riktiga samtal, inte sekvenser. Varje meddelande förtjänar nästa svar." },
+      { title: "Kvalificering", body: "Skarpa discovery-ramverk skiljer signal från brus. Rätt affärer går vidare, fel stängs snabbt." },
+      { title: "Konsultativ video", body: "Live-samtal fokuserade på diagnos och upptäckt — förstå det riktiga problemet och bygg köpfallet tillsammans med prospektet. Inget tryck att stänga på samtalet." },
+      { title: "Förslag & avslutsstrategi", body: "Skräddarsydda förslag och en avslutsstrategi som följer samtalet: ömsesidiga handlingsplaner, intressentkartläggning, navigering av inköp och rena signaturer över tidszoner." },
+      { title: "Analysera & finslipa", body: "Varje steg mätt och granskat varje vecka. Konverteringsdata driver nästa iteration av manuset." },
     ],
   },
   results: {
-    heading: "Geselekteerde impak",
-    label: "Geverifieerde prestasie 2020—2023",
+    heading: "Utvalda resultat",
+    label: "Verifierad prestation 2020—2023",
     items: [
-      { case: "Geval 01", label: "Internasionale werkbord", metric: "230+ kliënte", note: "Werkadvertensies aan 230+ kliënte in 48 lande verkoop deur outomatiese, prosesgedrewe uitreik." },
-      { case: "Geval 02", label: "48 lande gedek", metric: "48 markte", note: "Kultuur-eerste prospektering gelokaliseer op skaal — een enjin, dosyne koopkulture." },
-      { case: "Geval 03", label: "Kaarttel-era", metric: "+10 000% ROI", note: "Agt jaar in casino's wêreldwyd — aanvanklike kapitaal 100x gegroei deur gedissiplineerde voordeelspel." },
+      { case: "Fall 01", label: "Internationell jobbportal", metric: "230+ kunder", note: "Jobbannonser sålda till 230+ kunder i 48 länder genom automatiserad, processdriven uppsökning." },
+      { case: "Fall 02", label: "48 länder täckta", metric: "48 marknader", note: "Kulturförst prospektering lokaliserad i skala — en motor, dussintals köpkulturer." },
+      { case: "Fall 03", label: "Korträkningsåren", metric: "+10 000 % ROI", note: "Åtta år på kasinon världen över — initial bankrulle 100x växt genom disciplinerat edge-spel." },
     ],
   },
   about: {
-    section: "03 / Die operateur",
-    diagramCaption: "Diagram / Die verkoopsenjin — handgetekende analogie",
-    diagramAlt: "Die verkoopsenjin — 'n straalenjin-analogie wat inname, kompressie, verbranding en stukrag toon as stadiums van 'n internasionale verkoopsproses",
-    lead: "Ek bereik eers die kultuur. Dan vind ons saam die werklike redes, vertel 'n goeie storie en sluit af met 'n waardevolle oplossing — verseël met 'n belofte van 'n verhouding wat ek wil hou en waarvoor ek wil veg.",
-    bio: "Jare van internasionale verkoop van werkadvertensies aan 230+ kliënte in 48 lande deur outomatiese, prosesgedissiplineerde uitreik. Voor dit, agt jaar kaarte tel in casino's regoor die wêreld — klein bankrolle in 100x opbrengs verander deur voordeel, geduld en proses. Dieselfde operateur, dieselfde instink: respekteer die wiskunde, respekteer die kamer, wen stil-stil.",
+    section: "03 / Operatören",
+    diagramCaption: "Diagram / Säljmotorn — handritad analogi",
+    diagramAlt: "Säljmotorn — en jetmotoranalogi som visar intag, kompression, förbränning och dragkraft som steg i en internationell säljprocess",
+    lead: "Jag når kulturen först. Sedan hittar vi tillsammans de verkliga skälen, berättar en bra historia och avslutar med en värdefull lösning — beseglad med ett löfte om en relation jag vill behålla och kämpa för.",
+    bio: "År av internationell försäljning av jobbannonser till 230+ kunder i 48 länder genom automatiserad, processdisciplinerad uppsökning. Innan dess, åtta år av kortträkning på kasinon världen över — förvandlade små bankrullar till 100x avkastning genom edge, tålamod och process. Samma operatör, samma instinkt: respektera matematiken, respektera rummet, vinn tyst.",
   },
-  cta: { button: "Begin 'n gesprek" },
-  footer: { location: "Gebaseer in Bangkok / Wêreldwyd beskikbaar", copyright: "© 2026 Gustaw Jacewicz" },
+  cta: { button: "Starta ett samtal" },
+  footer: { location: "Baserad i Bangkok / Tillgänglig globalt", copyright: "© 2026 Gustaw Jacewicz" },
 };
 
 export const dictionaries: Record<LanguageCode, Dictionary> = {
-  en, de, ru, cs, zh, pt, th, hi, is, af,
+  en, de, ru, cs, zh, pt, th, hi, is, sv,
 };
